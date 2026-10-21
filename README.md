@@ -1,6 +1,6 @@
 # Ritwick Verma
 
-Search infrastructure engineer. For 5.5 years I've worked on **Cassini**, eBay's C++ search engine, where I own **fitment**: the subsystem that decides which parts fit your car, across 16 eBay sites. Off the clock I take things apart to the layer where they actually work, and I measure before I claim.
+Search infrastructure engineer. For 5.5 years I've worked on **Cassini**, eBay's C++ search engine, where I own **fitment**: the subsystem that decides which parts fit your car, across 16 eBay sites. Off the clock I build by directing AI coding agents (Claude Code and a self-hosted agent that runs my homelab): I set the design, review the diffs, and verify the result before I claim it.
 
 ## Selected work
 
