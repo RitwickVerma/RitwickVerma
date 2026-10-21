@@ -1,28 +1,23 @@
 # Ritwick Verma
 
-Backend software engineer at eBay in San Francisco. I build and self-host the systems I ship.
+Search infrastructure engineer. For 5.5 years I've worked on **Cassini**, eBay's C++ search engine, where I own **fitment**: the subsystem that decides which parts fit your car, across 16 eBay sites. Off the clock I take things apart to the layer where they actually work, and I measure before I claim.
 
-## What I work on
-
-- **eBay** - backend engineering on a large-scale marketplace platform.
-- **Homelab** - a self-hosted Proxmox setup (LXC and VMs, reverse proxy with SSO, ZFS-backed storage, monitoring) that I run and maintain as my own production environment.
-- **Plutus** - a quantitative trading bot: signal research, long/short backtesting, and live execution. Repository on GitLab.
-- **ShutUp** - an Android app that lets you handle calls with hand-wave gestures over the proximity sensor. Published on Google Play with roughly 26k downloads and a 4.3 rating.
-
-## Selected projects
+## Selected work
 
 | Project | What it is |
 | --- | --- |
-| [Plutus](https://gitlab.com/ritwick7/plutus-trading-bot) | Quant trading bot with a backtesting harness and live operations tooling (GitLab). |
-| [ShutUp](https://github.com/RitwickVerma/ShutUp) | Android app (Java) using the proximity sensor and accelerometer to answer, silence, or end calls. [On Google Play](https://play.google.com/store/apps/details?id=com.laughingstock.ritwick.shutup). |
-| [Gesture-Manager-X](https://github.com/RitwickVerma/Gesture-Manager-X) | GTK front end for configuring touchpad gestures with libinput-gestures on Linux (Python). Packaged on the AUR. |
-| [RPG](https://github.com/RitwickVerma/RPG) | A 2D RPG engine in C++ and SDL2, with Tiled maps parsed through tmxlite and no game engine underneath. |
+| [TizenAmbilight](https://gitlab.com/ritwick7/TizenAmbilight) | Ambilight from *inside* a Samsung TV: reads the undocumented video plane from memory, tone-maps PQ HDR, drives a WLED strip at 20–25 fps. No capture card. ([write-up](https://www.ritwickverma.dev/notes/tizen-video-plane-ambilight/)) |
+| [Crush 80 firmware](https://gitlab.com/ritwick7/crush80-zmk) | Open ZMK firmware for a keyboard whose vendor never released source: Telink RISC-V SoC, 154 per-key LEDs, pinout traced from PCB photos and Ghidra. |
+| Homelab as code | 16 Proxmox guests, 15 declared in OpenTofu, nightly drift detection, SSO + VPN, alerts that page once per real fault. ([write-up](https://www.ritwickverma.dev/notes/homelab-git-is-the-truth/)) |
+| Plutus | Quant research harness built to falsify itself: point-in-time backtests, bootstrap confidence intervals, rejected ideas documented. Private repo. ([write-up](https://www.ritwickverma.dev/notes/plutus-what-the-backtest-cannot-tell-you/)) |
+| [ShutUp](https://gitlab.com/ritwick7/shutup) | Answer, silence or end calls with a wave. 26,000+ downloads. Rebuilt in Kotlin + Compose. |
+| [kwin-canvas](https://gitlab.com/ritwick7/kwin-canvas) | Infinite window canvas for KDE Plasma on KWin's public API; 374 test scenarios. Fork, agent-written under my direction. |
+
+Older here on GitHub: [RPG](https://github.com/RitwickVerma/RPG) (2D RPG engine in C++/SDL2, no game engine) and [Gesture-Manager-X](https://github.com/RitwickVerma/Gesture-Manager-X) (libinput gestures GUI, on the AUR). New work lives on [GitLab](https://gitlab.com/ritwick7).
 
 ## Links
 
-- Portfolio: [ritwickverma.dev](https://www.ritwickverma.dev)
-- Resume: [ritwickverma.dev/resume](https://www.ritwickverma.dev/resume)
+- Site: [ritwickverma.dev](https://www.ritwickverma.dev) · Resume: [ritwickverma.dev/resume](https://www.ritwickverma.dev/resume/)
+- LinkedIn: [linkedin.com/in/ritwick-verma](https://www.linkedin.com/in/ritwick-verma/)
 - GitLab: [gitlab.com/ritwick7](https://gitlab.com/ritwick7)
-- LinkedIn: [linkedin.com/in/ritwickverma](https://linkedin.com/in/ritwickverma)
 - Email: [verma1997@gmail.com](mailto:verma1997@gmail.com)
-- Support my work: [buycovfefefor.ritwickverma.dev](https://buycovfefefor.ritwickverma.dev/)
