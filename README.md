@@ -8,7 +8,7 @@ Search infrastructure engineer. For 5.5 years I've worked on **Cassini**, eBay's
 | --- | --- |
 | [TizenAmbilight](https://gitlab.com/ritwick7/TizenAmbilight) | Ambilight from *inside* a Samsung TV: reads the undocumented video plane from memory, tone-maps PQ HDR, drives a WLED strip at 20–25 fps. No capture card. ([write-up](https://www.ritwickverma.dev/notes/tizen-video-plane-ambilight/)) |
 | [Crush 80 firmware](https://gitlab.com/ritwick7/crush80-zmk) | Open ZMK firmware for a keyboard whose vendor never released source: Telink RISC-V SoC, 154 per-key LEDs, pinout traced from PCB photos and Ghidra. |
-| Homelab as code | 16 Proxmox guests, 15 declared in OpenTofu, nightly drift detection, SSO + VPN, alerts that page once per real fault. ([write-up](https://www.ritwickverma.dev/notes/homelab-git-is-the-truth/)) |
+| Homelab as code | 17 Proxmox guests, 15 declared in OpenTofu, nightly drift detection, SSO + VPN, alerts that page once per real fault. ([write-up](https://www.ritwickverma.dev/notes/homelab-git-is-the-truth/)) |
 | Plutus | Quant research harness built to falsify itself: point-in-time backtests, bootstrap confidence intervals, rejected ideas documented. Private repo. ([write-up](https://www.ritwickverma.dev/notes/plutus-what-the-backtest-cannot-tell-you/)) |
 | [ShutUp](https://gitlab.com/ritwick7/shutup) | Answer, silence or end calls with a wave. 26,000+ downloads. Rebuilt in Kotlin + Compose. |
 | [kwin-canvas](https://gitlab.com/ritwick7/kwin-canvas) | Infinite window canvas for KDE Plasma on KWin's public API; 374 test scenarios. Fork, agent-written under my direction. |
